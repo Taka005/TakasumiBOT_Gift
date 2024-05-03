@@ -42,7 +42,7 @@ if(!$data) return require_once __DIR__."/invalid.php";
             <div class="info card text-center">
                 <div class="card-body">
                     <h1 class="card-title">ギフトが送られてきました</h1>
-                    <h3 class="card-text"><?= $data["id"] ?></h3>
+                    <h3 class="card-text"><?= $data["type"] ?>コイン</h3>
                     <p class="card-text">Discordからコマンドを実行してゲットしよう!</p>
                 </div>
             </div>
