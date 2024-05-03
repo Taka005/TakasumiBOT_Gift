@@ -2,7 +2,7 @@
 RewriteEngine On
 Options -Indexes
 
-RewriteRule ^/(.*)$ /index.php?id=$1 [QSA]
+RewriteRule ^(.*)$ /?id=$1 [QSA]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
