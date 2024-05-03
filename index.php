@@ -3,7 +3,7 @@ $res = json_decode(file_get_contents("https://api.takasumibot.com/v1/gift?id=".h
 
 $data = $res["data"];
 
-if(!$data) return header("Location: ./invalid");
+if(!$data) return header("Location: ./invalid.html");
 ?>
 <!DOCTYPE html>
 <html lang="ja">
